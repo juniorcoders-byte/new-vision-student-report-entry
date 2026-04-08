@@ -4,7 +4,6 @@ from streamlit_gsheets import GSheetsConnection
 
 # 1. Connection Setup
 conn = st.connection("gsheets", type=GSheetsConnection)
-df = conn.read(spreadsheet=url,worksheet="DATABASE")
 
 # --- SIDEBAR NAVIGATION ---
 st.sidebar.title("School Portal Navigation")
