@@ -23,6 +23,7 @@ if page == "Teacher: Grade Entry":
             basic_class = st.selectbox("BASIC (CLASS)", ["Basic 1", "Basic 2", "Basic 3", "Basic 4", "Basic 5", "Basic 6", "Basic 7", "Basic 8", "Basic 9"])
             position = st.text_input("POSITION")
             vacation_date = st.date_input("VACATION DATE")
+            reopening_date = st.date_input("REOPENING DATE")
 
         st.subheader("Academic Scores")
         subjects = ["ENGLISH", "RME", "SCIENCE", "MATHEMATICS", "COMPUTING", "FRENCH", "TWI", "CREATIVE ARTS", "CAREER TECH", "SOCIAL STUDIES"]
